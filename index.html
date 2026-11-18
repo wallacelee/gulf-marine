@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gulf Marine: one connected order, on the road to double EBITDA by 2030</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="row" style="margin:0 0 36px">
+      <div class="logo"><img src="assets/img/gulf-marine-logo.png" alt="Gulf Marine logo" width="100" height="128"></div>
+      <button class="themebtn" id="themebtn" type="button">Switch theme</button>
+    </div>
+    <h1>One connected order, on the road to double EBITDA by 2030</h1>
+    <p class="lede">Gulf Marine has grown faster than its systems. Follow one recent dry-dock order, anonymised, from enquiry to growth: first how it serves customers faster, then how the same data fuels the next sale. Flip each step between today and Salesforce and Slack, and see what the change is worth.</p>
+    <div class="row">
+      <a class="btn" href="#stage" style="text-decoration:none">Start the journey</a>
+      <a class="btn ghost" href="#case" style="text-decoration:none">Jump to the business case</a>
+    </div>
+    <div class="facts">
+      <div><b>3h 22m</b>enquiry to quote, inside a 4-hour SLA</div>
+      <div><b>4 min</b>for the salesman’s “go ahead”</div>
+      <div><b>3 systems</b>touched to place one order</div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="stage" id="stage" aria-label="Customer journey">
+  <div class="wrap">
+    <h2>Eight steps, one shared record</h2>
+    <p class="sub">Steps one to six are Phase 1. Growth is a Phase 2 preview and the Agentforce step is what comes next, once master data is clean.</p>
+
+    <div class="route">
+      <div class="track"><div class="fill" id="fill"></div><div class="ship" id="ship"></div></div>
+      <div class="stops" id="stops" role="tablist" aria-label="Journey steps"></div>
+    </div>
+
+    <div class="controls">
+      <div class="seg" role="group" aria-label="View">
+        <button type="button" id="mToday" aria-pressed="true">Today</button>
+        <button type="button" id="mFuture" aria-pressed="false">With Salesforce and Slack</button>
+      </div>
+      <div class="nav">
+        <button type="button" id="prev">Back</button>
+        <button type="button" id="next">Next step</button>
+      </div>
+    </div>
+
+    <div class="grid" id="stageGrid" aria-live="polite"></div>
+  </div>
+</section>
+
+<section class="case" id="case">
+  <div class="wrap">
+    <h2>What the change is worth</h2>
+    <p class="sub" style="color:var(--ink2);margin-top:12px;max-width:62ch">Five kinds of value, each tied to something we saw in a recent order. The figures are for the workshop to baseline, so nothing here is a promise yet.</p>
+    <div class="themes" id="themes"></div>
+
+    <h3 style="font-size:26px;margin-top:44px">Value by step</h3>
+    <p class="small" style="margin:6px 0 14px">Where each step creates value, the first number to baseline, and where it comes from.</p>
+    <div style="overflow-x:auto"><table class="vt" id="vbs"></table></div>
+
+    <h3 style="font-size:26px;margin-top:44px">How we prove it</h3>
+    <div class="prove" id="prove"></div>
+
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">Built from one recent order. Customer, vessel and people from that order are anonymised. Names, vessels, ports and dates in the mock-up screens are fictional, and the screens are illustrative mock-ups, not a product recording. Metrics need baselining with Gulf Marine before they become targets.</div>
+</footer>
+
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>
